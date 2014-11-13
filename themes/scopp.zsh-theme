@@ -13,7 +13,7 @@ GIT_DIRTY_COLOR=$FG[133]
 GIT_CLEAN_COLOR=$FG[118]
 GIT_PROMPT_INFO=$FG[012]
 
-PROMPT='%{$fg[white]%}%D{[%I:%M:%S]}%{$fg_bold[red]%}%n@%m:%{$fg[green]%}%~%{$reset_color%}%{$GIT_PROMPT_INFO%}$(git_prompt_info)%{$GIT_DIRTY_COLOR%}$(git_prompt_status) %{$reset_color%}%{$PROMPT_PROMPT%}ᐅ%{$reset_color%} '
+PROMPT='%{$fg[white]%}%D{[%I:%M:%S]}%{$fg_bold[red]%}%n%{$reset_color%}%{$fg[white]%}@%{$reset_color%}%{$fg_bold[red]%}%m%{$reset_color%}%{$fg[white]%}:%{$fg[green]%}%~%{$reset_color%}%{$GIT_PROMPT_INFO%}$(git_prompt_info)%{$GIT_DIRTY_COLOR%}$(git_prompt_status) %{$reset_color%}%{$PROMPT_PROMPT%}ᐅ%{$reset_color%} '
 
 #RPS1="${return_code}"
 
